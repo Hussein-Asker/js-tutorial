@@ -1,0 +1,224 @@
+		body{
+		background-color:white;
+		font-family:sans-serif, Arial, Helvetica;
+		font-size:16px;
+		line-height:1.6em;
+		margin: 0;
+	}
+        
+        /* index PAGE*/
+
+		.A nav{
+		padding-top:10px;
+		width:100%;
+		padding-bottom:30%;
+		background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url('../img/IMG_400453.jpg')no-repeat;
+		
+
+		}
+		.A a{
+		text-decoration:none;
+		color:white;
+		padding:10px;
+		font-size:15px;}
+
+		.A	a:hover{
+		border-bottom:solid 2px;
+		}
+
+		.A li{
+
+		list-style: none;
+		display:inline-block;
+		padding:10px;
+		}
+		.A ul{
+		text-align:right;
+		}
+.A h1{
+	color:white;
+	font-size:50px;
+	text-align: center;
+	margin-top: 20%;
+
+}
+.A p{
+	color:white;
+	font-size:30px;
+	text-align: center;
+}
+.B h2{
+	font-size: 30px;
+	padding-left: 25px;
+}
+
+		.B .Japan a{
+		color: white;
+		padding:140px;
+		border-radius: 8px;
+		background-size:cover;
+		background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url("../img/Japan/Tohoku.jpg")no-repeat;
+		background-position:center;
+		text-decoration:none;
+		font-size:40px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+		}
+
+		.B .Norway a{
+		color: white;
+		padding:140px 127px;
+		border-radius: 8px;
+		background-size:cover;
+		background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url("../img/Norway/trondheim.jpg")no-repeat;
+		background-position:center;
+		text-decoration:none;
+		font-size:40px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+		}
+
+		.B .Russia a{
+		color: white;
+		padding:140px 134px;
+		border-radius: 8px;
+		background-size:cover;
+		background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url("../img/Russia/moscow.jpg")no-repeat;
+		background-position:center;
+		text-decoration:none;
+		font-size:40px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+		}
+
+		.B .Germany a{
+		color: white;
+		padding:140px 112px;
+		border-radius: 8px;
+		background-size:cover;
+		background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url("../img/Germany/cologne.jpg")no-repeat;
+		background-position:center;
+		text-decoration:none;
+		font-size:40px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+		}
+
+		.B li{
+		
+		list-style: none;
+		padding:60px;
+		
+
+		display: flex;
+		flex-wrap: wrap;}
+		.B ul{
+		display: flex;
+		flex-wrap: wrap;
+		
+		}
+
+		.F{
+		text-align: center;
+		border:solid;
+		color:white;
+		background-color: black;
+		border-color: black;
+		padding: 25px;
+		margin-top: 30px;}
+
+		.F a{
+			text-decoration:none;
+			color: white;
+		}
+		.F li{
+			list-style: none;
+		}
+
+/* LOGIN PAGE */
+.E{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+	margin: 30px;
+	padding:50px;
+	border-radius: 8px;
+	background-color:white;
+	width:50%;
+
+}
+.E input{
+	padding:15px;
+	margin:15px;
+	width: 70%;
+}
+.E button{
+	padding:15px;
+	margin:15px;
+	color:white;
+	background-color:black;
+	border-style:none;
+}
+
+.E button:hover{
+	background-color:blue;
+}
+
+/* LOCATIONS PART */
+.C h2{
+	padding-left: 40px;
+}
+.C h3{
+	border-bottom:solid;
+}
+.C li{
+padding:10px;
+font-family: sans-serif, Arial, Helvetica;
+list-style:none;
+margin:50px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.C li img{
+	width:40%;
+
+}
+.C p{
+	text-align:justify;
+
+}
+
+ /* PRIVACY POLICY PAGE */
+
+ .D{
+ 	padding:100px;
+ 	text-align:justify;
+ }
+
+/* Media*/
+@media(max-width: 768px){
+	body{
+		width: 100%;
+	}
+	.A ul,
+	.B h2{
+		text-align:center;
+		font-size:25px;
+		}
+.A h1{
+	margin-top: 40px;
+	font-size:25px;
+
+}
+.A p{
+	font-size:15px;
+}
+.B ul{
+display:block;}
+	.B li{
+		
+		padding-bottom:0px; 
+		padding-left:0px;
+		
+		}
+}
+.E{
+	position:relative;
+	left:50px;
+}
+}
